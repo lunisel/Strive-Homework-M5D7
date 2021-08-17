@@ -6,11 +6,11 @@ const { readJSON, writeJSON, writeFile } = fs;
 
 const authorsJSONPath = join(
   dirname(fileURLToPath(import.meta.url)),
-  "../authors/authors.json"
+  "../services/authors/authors.json"
 );
 const postsJSONPath = join(
   dirname(fileURLToPath(import.meta.url)),
-  "../posts/posts.json"
+  "../services/posts/posts.json"
 );
 const publicFolderPath = join(
   dirname(fileURLToPath(import.meta.url)),
